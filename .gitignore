@@ -17,5 +17,7 @@ package-lock.json
 # IDE configurations
 .idea
 
+Gemfile.lock
+
 # Misc
 # assets/js/dist
