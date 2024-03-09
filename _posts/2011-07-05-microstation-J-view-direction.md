@@ -1,7 +1,7 @@
 ---
 title: "microstation j view direction"
 comments: true 
-img_path: /assets/images/ustn/
+img_path: /assets/images/USTN/
 categories: [USTN]
 tags: [MSTN J]
 ---
