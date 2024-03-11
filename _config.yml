@@ -203,11 +203,5 @@ jekyll-archives:
     tag: /tags/:name/
     category: /categories/:name/
 
-# Analytics
-analytics:
-  provider:
-    "google-gtag"
-    # false (default), "google", "google-universal", "google-gtag", "custom"
-  google:
-    tracking_id: "G-C1XJWSS9PT"
-    anonymize_ip: # true, false (default)
+google_analytics:
+    id: 'G-8SF3EPG0KP'
