@@ -204,7 +204,7 @@ jekyll-archives:
     category: /categories/:name/
 
 google_analytics:
-  id: 'G-LFPXNEGMEZ'   # fill in your Google Analytics ID
+  id: 'G-X872N7VFX3'   # fill in your Google Analytics ID
   # Google Analytics pageviews report settings
   pv:
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
