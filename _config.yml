@@ -96,13 +96,13 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: "humkyung/humkyung.github.io"
-    repo_id: "R_kgDOLdg1GA"
-    category: "Announcements"
-    category_id: "DIC_kwDOLdg1GM4Cd4ZD"
-    mapping: "pathname"
-    input_position: "bottom"
-    lang: "ko"
+    repo: humkyung/humkyung.github.io
+    repo_id: R_kgDOLdg1GA
+    category: Announcements
+    category_id: DIC_kwDOLdg1GM4Cd4ZD
+    mapping: pathname
+    input_position: bottom
+    lang: ko
     reactions_enabled: # optional, default to the value of `1`
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
