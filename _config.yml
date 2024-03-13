@@ -203,9 +203,10 @@ jekyll-archives:
     tag: /tags/:name/
     category: /categories/:name/
 
-google_analytics:
-  id: 'G-X872N7VFX3'   # fill in your Google Analytics ID
-  # Google Analytics pageviews report settings
-  pv:
-    proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
-    cache_path:   
+# Analytics
+analytics:
+  provider               : "google-gtag" 
+                          # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id          : "G-X872N7VFX3"
+    anonymize_ip         : # true, false (default)
