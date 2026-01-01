@@ -3,6 +3,9 @@
 icon: fas fa-info-circle
 order: 4
 ---
-
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+>**"기억보단 기록을"** 믿으며,
+>세상을 향해 누구보다 당당해지고 싶지만 조그만 근심에도 밤잠을 못 이루는 개발자이자
+  두 아들과 함께 성장하는 가장입니다.
+> 
+  흐르는 물결에 몸을 맡기듯 삶의 변화를 받아들이고, 나를 스쳐가는 감정과 소중한 순간들이
+  휘발되지 않도록 이 공간에 정직하게 기록합니다.
