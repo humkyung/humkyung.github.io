@@ -5,5 +5,6 @@ img_path: /assets/images/SQL/
 categories: [SQL]
 tags: [SQL]
 ---
-
-<code style="color:red">INSERT INTO (테이블 이름) DEFAULT VALUES"</code>
+```sql
+INSERT INTO (테이블 이름) DEFAULT VALUES
+```
