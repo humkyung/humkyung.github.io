@@ -19,7 +19,7 @@ img_path: /assets/images/
  
 ---
 
-Backend, Frontend 둘 다 같은 docker(Docker Desktop)에 올라와 있습니다. Backend, Frontend Docker를 생성할 때 동일한 네트워크에 묶어줘야 합니다.
+Backend, Frontend 둘 다 같은 docker(Docker Desktop)에 올라와 있습니다. Backend, Frontend Docker를 생성할 때 동일한 네트워크에 묶어줘야 합니다. Dockerfile 상단에 추가합니다.
 ```bash
 # 네트워크가 없으면 생성
 if (!(docker network ls -q -f name=my-net)) {
