@@ -70,7 +70,7 @@ IF %ERRORLEVEL% NEQ 0 goto :ERROR
 
 뼈대 파일은 아래와 같은 구조로 작성합니다. heat가 생성한 `InstallFiles` 컴포넌트 그룹을 참조하는 것이 핵심입니다.
 
-```XML
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
 
