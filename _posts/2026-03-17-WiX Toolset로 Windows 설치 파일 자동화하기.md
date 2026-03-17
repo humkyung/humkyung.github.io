@@ -69,6 +69,7 @@ IF %ERRORLEVEL% NEQ 0 goto :ERROR
 - **heat 생성 .wxs**: 설치 대상 파일 목록 (자동 생성)
 
 뼈대 파일은 아래와 같은 구조로 작성합니다. heat가 생성한 `InstallFiles` 컴포넌트 그룹을 참조하는 것이 핵심입니다.
+
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
@@ -157,6 +158,7 @@ IF %ERRORLEVEL% NEQ 0 goto :ERROR
 ```
 
 저희는 Jenkins의 PowerShell 스크립트에서 빌드 시마다 파일 목록을 자동으로 생성하도록 구성했습니다.
+
 ```PowerShell
 Write-Host "=== Generate InstallFiles.wxs with heat ==="
 
