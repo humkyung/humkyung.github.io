@@ -168,7 +168,7 @@ if (Test-Path $outFile) {
     Remove-Item $outFile -Force
 }
 
-& %HEAT% dir ".\Publish\Client" `
+& $env.HEAT dir ".\Publish\Client" `
   -cg InstallFiles `
   -dr InstallFolder `
   -var var.SourceDir `
