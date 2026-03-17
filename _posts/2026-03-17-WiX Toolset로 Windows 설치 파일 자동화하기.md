@@ -159,7 +159,7 @@ IF %ERRORLEVEL% NEQ 0 goto :ERROR
 
 저희는 Jenkins의 PowerShell 스크립트에서 빌드 시마다 파일 목록을 자동으로 생성하도록 구성했습니다.
 
-```PowerShell
+```bash
 Write-Host "=== Generate InstallFiles.wxs with heat ==="
 
 $outFile = ".\InstallModule\InstallFiles.wxs"
