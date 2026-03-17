@@ -40,10 +40,10 @@ SET LIGHT="C:\Program Files (x86)\WiX Toolset v3.11\bin\light.exe"
 %HEAT% dir SourceFolder -dr INSTALLFOLDER -cg ProductName -g1 -gg -sf -srd -scom -sreg -t HeatTransform.xslt -out ".\fragments.wxs"
 ```
 
-![Pasted image 20260317160023](/assets/images/Pasted image 20260317160023.png)
+![Pasted image 20260317160023](/Pasted image 20260317160023.png)
 
 생성된 파일에는 설치 대상 파일 목록만 포함되어 있기 때문에, 설치 화면(배너, 설치 경로 선택, 언인스톨 등)은 별도로 직접 작성해야 합니다.
-![Pasted image 20260317160820](/assets/images/Pasted image 20260317160820.png)
+![Pasted image 20260317160820](/Pasted image 20260317160820.png)
 
 그렇게 만들어진 .wxs 파일은 다음 명령으로 빌드합니다.
 ```bash
