@@ -13,7 +13,7 @@ img_path: /assets/images/
 
 예전에 프로그램을 만들고 나면 설치 파일을 배포해야 했는데, 처음에는 Winamp로 유명한 Nullsoft에서 만든 **NSIS**를 사용했습니다. InstallShield라는 강력한 툴도 있었지만 상용이라 freeware인 NSIS를 선택했고, 구글링과 블로그를 뒤져가며 열심히 공부했던 기억이 납니다.
 
-이후 마이크로소프트에서 만든 **WiX Toolset**을 알게 되면서 NSIS 대신 WiX를 사용하게 되었습니다.
+이후 마이크로소프트 MSI팀 개발자인 Rob Mensching이 만들어 오픈소스로 공개한 **WiX Toolset**을 알게 되면서 NSIS 대신 WiX를 사용하게 되었습니다.
 
 ---
 
