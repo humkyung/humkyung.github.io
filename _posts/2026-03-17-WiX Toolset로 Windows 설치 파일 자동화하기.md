@@ -70,7 +70,7 @@ IF %ERRORLEVEL% NEQ 0 goto :ERROR
 
 뼈대 파일은 아래와 같은 구조로 작성합니다. heat가 생성한 `InstallFiles` 컴포넌트 그룹을 참조하는 것이 핵심입니다.
 
-```XML
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
 
@@ -159,7 +159,7 @@ IF %ERRORLEVEL% NEQ 0 goto :ERROR
 
 저희는 Jenkins의 PowerShell 스크립트에서 빌드 시마다 파일 목록을 자동으로 생성하도록 구성했습니다.
 
-```PowerShell
+```bash
 Write-Host "=== Generate InstallFiles.wxs with heat ==="
 
 $outFile = ".\InstallModule\InstallFiles.wxs"
@@ -168,7 +168,7 @@ if (Test-Path $outFile) {
     Remove-Item $outFile -Force
 }
 
-& %HEAT% dir ".\Publish\Client" `
+& $env.HEAT dir ".\Publish\Client" `
   -cg InstallFiles `
   -dr InstallFolder `
   -var var.SourceDir `
