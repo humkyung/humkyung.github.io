@@ -9,7 +9,6 @@ tags:
   - portfolio
 img_path: /assets/images/
 ---
-<!DOCTYPE html>
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
